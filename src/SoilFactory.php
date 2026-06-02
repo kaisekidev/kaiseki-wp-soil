@@ -11,8 +11,6 @@ final class SoilFactory
 {
     public function __invoke(ContainerInterface $container): Soil
     {
-        /** @var list<string> $soilConfig */
-        $soilConfig = Config::get($container)->array('soil', []);
-        return new Soil($soilConfig);
+        return new Soil(Config::fromContainer($container)->array('soil', []));
     }
 }
