@@ -14,14 +14,14 @@ final class ConfigProvider
         return [
             'soil' => [
                 'clean-up', // Cleaner WordPress markup
-//                'disable-rest-api', // Disable REST API
-//                'disable-asset-versioning', // Remove asset versioning
-//                'disable-trackbacks', // Disable trackbacks
-//                'google-analytics' => 'UA-XXXXX-Y', // Google Analytics
-//                'js-to-footer', // Move JS to footer
-//                'nav-walker', // Clean up nav menu markup
-//                'nice-search', // Redirect /?s=query to /search/query
-//                'relative-urls', // Convert absolute URLs to relative URLs
+                //                'disable-rest-api', // Disable REST API
+                //                'disable-asset-versioning', // Remove asset versioning
+                //                'disable-trackbacks', // Disable trackbacks
+                //                'google-analytics' => 'UA-XXXXX-Y', // Google Analytics
+                //                'js-to-footer', // Move JS to footer
+                //                'nav-walker', // Clean up nav menu markup
+                //                'nice-search', // Redirect /?s=query to /search/query
+                //                'relative-urls', // Convert absolute URLs to relative URLs
             ],
             'hook' => [
                 'provider' => [

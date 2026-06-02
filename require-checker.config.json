@@ -4,7 +4,8 @@
         "static", "self", "parent",
         "array", "string", "int", "float", "bool", "iterable", "callable", "void", "object",
         "add_action",
-        "add_theme_support"
+        "add_theme_support",
+        "Roots\\Soil\\Soil"
     ],
     "php-core-extensions" : [
         "Core",
